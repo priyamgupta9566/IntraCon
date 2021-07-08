@@ -1,0 +1,74 @@
+{
+    "people": [
+      {
+        "title": "Samyak Jain",
+        "description": "Creator,Developer"
+      },
+      {
+        "title": "Atharv Mittal",
+        "description": "Creator,Developer"
+      },
+      {
+        "title": "Priyam Gupta",
+        "description": "Creator,Developer"
+      }
+    ],
+    "conversation": [
+      {
+        "title": "Tech",
+        "description": "Everything related to Tech"
+      },
+      {
+        "title": "Languages",
+        "description": "All about Languages"
+      },
+      {
+        "title": "Python ChatRoom",
+        "description": "Python Discussion Room"
+      },
+      {
+        "title": "Java ChatRooom",
+        "description": "Discuss Java Here..."
+      },
+      {
+        "title": "Data Structures Discussion Place",
+        "description": "Learn the basics here."
+      },
+      {
+        "title": "Competetive Programming",
+        "description": "Hone your CP skills"
+      },
+      {
+        "title": "Web Development",
+        "description": "Become a Web Developer"
+      },
+      {
+        "title": "Machine Learning",
+        "description": "Master your ML Skills"
+      },
+      {
+        "title": "Android Development",
+        "description": "Learn about Android"
+      },
+      {
+        "title": "Prakriti MSIT Club",
+        "description": "An next step to protect environment"
+      },
+      {
+        "title": "IEEE Club",
+        "description": "One of the finest and oldest clubs, be a part of society"
+      },
+      {
+        "title": "General Talk",
+        "description": "A room open for everything"
+      },
+      {
+        "title": "",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "World Affairs",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      }
+    ]
+  }

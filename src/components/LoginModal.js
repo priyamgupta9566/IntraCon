@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
 import { ValidatorForm, TextValidator } from "react-material-ui-form-validator";
-import { toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 import { ScaleLoader } from "react-spinners";
 import { auth } from "../firebase";
 import {
@@ -72,6 +72,7 @@ const LoginModal = (props) => {
     <>
       {props.loginModal === "open" && (
         <Container>
+          <ToastContainer />
           <Content>
             <Header>
               <img src="/images/intra.jpg" alt="" />

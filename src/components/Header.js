@@ -10,6 +10,8 @@ const Header = (props) => {
 
   const history = useHistory();
   const navigateTo = () => history.push("/chatroom");
+  const navigationTo = () => history.push("/Profile");
+  const navigator = () => history.push("/rooms");
   return (
     <Container>
       <Content>
@@ -29,21 +31,28 @@ const Header = (props) => {
         <Nav>
           <NavListWrap>
             <NavList className="active">
-              <a>
+              <a href="/home">
                 <img src="/images/nav-home.svg" alt="" />
                 <span>Home</span>
               </a>
             </NavList>
 
             <NavList>
-              <a>
-                <img src="/images/nav-network.svg" alt="" />
-                <span>My Network</span>
+              <a href="https://chat-ui-af978.web.app/login" target="_blank">
+                <img src="/images/nav-messaging.svg" alt="" />
+                <span>Messaging</span>
               </a>
             </NavList>
 
             <NavList>
               <a>
+                <img src="/images/nav-network.svg" alt="" />
+                <span onClick={navigationTo}>My Profile</span>
+              </a>
+            </NavList>
+
+            <NavList>
+              <a href="/findprofile">
                 <img src="/images/nav-jobs.svg" alt="" />
                 <span>Find Profiles</span>
               </a>
@@ -52,13 +61,6 @@ const Header = (props) => {
             <NavList>
               <a>
                 <img src="/images/nav-messaging.svg" alt="" />
-                <span>Messaging</span>
-              </a>
-            </NavList>
-
-            <NavList>
-              <a>
-                <img src="/images/nav-notifications.svg" alt="" />
                 <span onClick={navigateTo}>Group Chat</span>
               </a>
             </NavList>
@@ -70,7 +72,7 @@ const Header = (props) => {
                 ) : (
                   <img src="/images/user.svg" alt="" />
                 )}
-                <span>
+                <span onClick={navigationTo}>
                   Me
                   <img src="/images/down-icon.svg" alt="" />
                 </span>
@@ -84,7 +86,7 @@ const Header = (props) => {
             <Work>
               <a>
                 <img src="/images/nav-work.svg" alt="" />
-                <span>
+                <span onClick={navigator}>
                   Room
                   <img src="/images/down-icon.svg" alt="" />
                 </span>

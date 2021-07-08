@@ -1,0 +1,47 @@
+.WelcomeConatiner
+{
+    padding: 5em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 80vh;
+    background-color: #f2f0d2;
+}
+.WelcomeConatiner h1{
+    font-size: 2em;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+    color: var(--textColor);
+    text-decoration: solid;
+    padding-bottom: 1em;
+    color:blue;
+}
+.WelcomeInfo
+{
+    height: 500px;
+    overflow: auto;   
+}
+.WelcomeInfo p{
+    margin-bottom: 2em;
+    color: var(--textColor);
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.actionBtn{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionBtn>a:last-child{
+    color: var(--btnBgColor);
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+}
